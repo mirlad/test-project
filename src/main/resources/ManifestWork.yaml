@@ -8,57 +8,6 @@ metadata:
   creationTimestamp: '2024-12-19T04:54:00Z'
   annotations:
     operator.open-cluster-management.io/version: 2.4.0
-  managedFields:
-    - manager: Go-http-client
-      operation: Update
-      apiVersion: apiextensions.k8s.io/v1
-      time: '2024-12-19T04:54:00Z'
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:status':
-          'f:acceptedNames':
-            'f:kind': {}
-            'f:listKind': {}
-            'f:plural': {}
-            'f:singular': {}
-          'f:conditions':
-            'k:{"type":"Established"}':
-              .: {}
-              'f:lastTransitionTime': {}
-              'f:message': {}
-              'f:reason': {}
-              'f:status': {}
-              'f:type': {}
-            'k:{"type":"NamesAccepted"}':
-              .: {}
-              'f:lastTransitionTime': {}
-              'f:message': {}
-              'f:reason': {}
-              'f:status': {}
-              'f:type': {}
-      subresource: status
-    - manager: registration-operator
-      operation: Update
-      apiVersion: apiextensions.k8s.io/v1
-      time: '2024-12-19T04:54:05Z'
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            .: {}
-            'f:operator.open-cluster-management.io/version': {}
-        'f:spec':
-          'f:conversion':
-            .: {}
-            'f:strategy': {}
-          'f:group': {}
-          'f:names':
-            'f:kind': {}
-            'f:listKind': {}
-            'f:plural': {}
-            'f:singular': {}
-          'f:scope': {}
-          'f:versions': {}
 spec:
   group: work.open-cluster-management.io
   names:
